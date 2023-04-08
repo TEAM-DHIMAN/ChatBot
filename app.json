@@ -1,0 +1,14 @@
+{
+    "name": "Dhiman Chat Bot",    
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Fill Your Bot Token Only",
+            "required": true
+        }              
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}
