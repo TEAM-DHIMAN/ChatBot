@@ -59,8 +59,11 @@ async def restart(client, m: Message):
     await asyncio.sleep(0.1)
     await accha.edit("sᴛᴀʀᴛᴇᴅ.✓")
     await asyncio.sleep(0.2)
-    await accha.edit("🦄 ʜᴇʟʟᴏ ᴍʀ/ᴍɪss ɴᴏᴡ ᴊᴏɪɴ ᴍʏ ɢʀᴏᴜᴘ [sᴜᴋᴏᴏɴ](https://t.me/+uoms6YK5Ul8yMThl) ᴀɴᴅ ᴍᴀᴋᴇ ɢɪʀʟғʀɪᴇɴᴅ ʜᴇʀᴇ ! 💋")
-       
+    await accha.edit("🦄 ʜᴇʟʟᴏ ᴍʀ/ᴍɪss ɴᴏᴡ ᴊᴏɪɴ ᴍʏ ɢʀᴏᴜᴘ @Dhiman_Discus) ᴀɴᴅ ᴍᴀᴋᴇ ɢɪʀʟғʀɪᴇɴᴅ ʜᴇʀᴇ ! 💋")
+       [
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/+uoms6YK5Ul8yMThl}"),
+        InlineKeyboardButton(text="ғᴇᴇʟɪɴɢs", url=f"https://t.me/Dhiman_Feelings"),
+    ],
 @bot.on_message(
     filters.command(["chatbot off", f"chatbot@{BOT_USERNAME} off"], prefixes=["/", ".", "?", "-"])
     & ~filters.private)
